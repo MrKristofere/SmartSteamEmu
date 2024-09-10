@@ -4,11 +4,15 @@ This is a steam client emulator which enables you to play steam games without ST
 
 This emulator initially intended only for Age of Empires II HD to enable lobby features without depending on STEAM. Now the emulator has been updated and can be used with other steam's game.
 
-Изображение
+<details>
+<summary>Pictures</summary>
+  
+  ![image](https://github.com/user-attachments/assets/d31c5fd3-9bc2-4aa1-a1b4-d77022f78d17)
+  ![image](https://github.com/user-attachments/assets/dfa126b2-89f6-4e5d-bf39-742087684dee)
+  ![image](https://github.com/user-attachments/assets/aea85de9-f7cb-4faa-ad53-0d3ddbe0a238)
+  
+</details>
 
-Изображение
-
-Изображение
 
 Features:
 - Run steam game without steam
@@ -45,7 +49,7 @@ Beginning with version 1.3.5, online mode is introduced (by SSEOverlay plugin). 
 Plugin Development:
 Plugin is simply a dll file to extend or change the emulator or game behaviour. The dll will be loaded by SmartSteamEmu via LoadLibrary(). Additionally the plugin can have SmartInit() and SmartShutdown() exported function. To get better understanding, download the PDK.
 
-PDK can be downloaded here: viewtopic.php?f=20&t=65200
+PDK can be downloaded here: https://cs.rin.ru/forum/viewtopic.php?f=20&t=65200
 ***************************************************************
 
 Changelog:
@@ -89,3 +93,5 @@ Thanks to all cs.rin.ru Developers Group members including ChrisTX
 Thanks to Mitsukarina for helping and maintaining SSELauncher
 Thanks to Sisah for helping and maintaining SSEOverlay
 Thanks to people who provided translation for SSEOverlay: Czech (Sisah), Russian (Shlak), Spanish (xatornet)
+
+[SSE Companion - Collections of apps/tools for SmartSteamEmu](https://cs.rin.ru/forum/viewtopic.php?f=10&t=67795)
